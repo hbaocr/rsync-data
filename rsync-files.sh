@@ -3,9 +3,9 @@
 # Configurable parameters
 # =========================
 LOCAL_FILE="/Volumes/Data/users.csv"      # Path to the local file
-REMOTE_USER="dev"                      # Your cloud server username
-REMOTE_HOST="10.66.77.27"    # Your cloud server IP or hostname
-REMOTE_PATH="data2"                        # Destination folder (can be relative or absolute)
+REMOTE_USER="root"                      # Your cloud server username
+REMOTE_HOST="103.116.104.113"    # Your cloud server IP or hostname 103.116.104.113,103.116.104.114,103.116.104.115
+REMOTE_PATH="datamining"                        # Destination folder (can be relative or absolute)
 LOG_FILE="./rsync_transfer.log"            # Log file to track progress
 MAX_RETRIES=10                               # Number of retries if transfer fails
 SLEEP_BETWEEN_RETRIES=10                    # Seconds to wait before retry
